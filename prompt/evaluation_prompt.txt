@@ -1,1 +1,23 @@
+Evaluate the student's answer based on the question and the ideal answers provided, giving a score from 0 to 5.
 
+Follow these rules:
+- Starting from the question and the ideal answer, extract the main points that the student should have addressed in their response.
+- If the student answer addresses all the main points, assign a score of 5.
+- If the student answer does not address any of the main points, assign a score of 0.
+- If the student answer addresses some but not all the main points, assign a score between 0 and 5 based on the relevance and completeness of the response.
+- Provide a constructive and concise explanation of the reasons for the score assigned to help the student improve their answer.
+
+Question:
+{question}
+
+Student answer:
+{studentAnswer}
+
+Ideal answer:
+{idealAnswer}
+
+Examples:
+{examples}
+
+Follow these instructions to generate the output:
+{formattingInstructions}
