@@ -1,0 +1,11 @@
+Return a JSON object with the following fields:
+
+- "score": number  
+  The score of the student answer.
+
+- "explanation": string  
+  The explanation of the score. Must be valid JSON string. Cannot be null.  
+  Do not use single quotes inside.  
+  Escape double quotes if needed.  
+  Do not include markdown or triple backticks.  
+  Always close the string with a matching double quote.
