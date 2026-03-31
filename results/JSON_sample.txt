@@ -1,7 +1,5 @@
-## Notes
-
+Notes:
 The `answer` field is intentionally left empty to preserve student privacy.
-
 All evaluations (scores and explanations) are retained to illustrate the behavior of the system without exposing original student responses.
 
 [
